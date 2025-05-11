@@ -27,3 +27,15 @@ window.cadastro = async function () {
     alert('Cadastro realizado! COnfirme o seu e-mail para poder fazer o login.')
   }
 }
+
+// Permitir que Enter funcione como clique nos botões de login
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'Enter') {
+    const caminho = window.location.pathname
+    if (caminho.includes('login')) {
+      login()
+    } else if (caminho.includes('cadastro')) {
+      cadastro()
+    }
+  }
+})
