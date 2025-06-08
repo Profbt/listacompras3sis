@@ -3,18 +3,19 @@
 
 /* ---------- Variáveis globais ---------- */
 :root {
-  --color-primary: #6b73ff;
-  --color-primary-dark: #4e56d6;
-  --color-bg: #f5f7fa;
-  --color-white: #ffffff;
-  --color-border: #ddd;
-  --color-shadow: rgba(0, 0, 0, 0.1);
-  --color-text: #333;
+    --cor-primaria: #93A3B1;
+    --cor-primaria-escura: #7C898B;
+    --cor-bg: #f5f7fa;
+    --cor-branco: #ffffff;
+    --cor-borda: #ddd;
+    --cor-sombra: rgba(0, 0, 0, 0.15);
+    --cor-texto: #333;
 
-  --font-family: 'Roboto', sans-serif;
+    --fonte: 'Roboto', sans-serif;
 
-  --radius: 12px;
-  --transition: 0.3s ease;
+    --raio: 0.8rem;
+    --transition: 0.3s ease;
+
 }
 
 /* ---------- Reset básico ---------- */
