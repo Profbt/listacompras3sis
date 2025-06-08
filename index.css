@@ -35,6 +35,13 @@ body {
   align-items: center;
 }
 
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: var(--raio);
+}
+
 /* ---------- Título ---------- */
 .titulo {
   font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
